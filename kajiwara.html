@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>梶原観光ガイド</title>
+  <link rel="stylesheet" type="text/css" href="kajiwara.css">
+  <script type="text/javascript" src="kajiwara.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+
+<body>
+
+  <!--header-->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Kajiwara</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#h_Gourmet">Gourmand</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#h_Spot">Spot</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#h_Root">Root</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+
+  <!--slideshow-->
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/葛原神社.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/pompomcake.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/tyuuoukouenn.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="aboutkajiwara">
+    <p id="text_kajiwara">Kajiwara</p>
+    <div class="text_kj">
+      <p>鎌倉時代、梶原景時が本拠とした鎌倉市梶原</p>
+      <p>中心部の人混みから離れた静かな地で</p>
+      <p>新しい鎌倉を探してみませんか。</p>
+      <br>
+      <br>
+      <br>
+      <hr>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <!-- Main Content -->
+
+    <!--Gourmet-->
+    <div class="Gourmet">
+
+      <p class="h_Gourmet" id="h_Gourmet">Gourmet</p>
+
+      <div class="card-element"><!--1列目-->
+
+        <div class="card" style="width: 18rem;">
+          <img src="img/ponpon2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">POMPON CAKES</h5>
+            <p class="card-text">レモンケーキが有名なケーキ屋さん。ケーキをはじめ、ジャムやコーヒーなどティータイムにピッタリなお店です。休日は開店前から人だかりも、、、</p>
+            <a href="https://pomponcakes.com/" target="_blank" class="btn btn-outline-success" id="btn_id">公式サイト</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="img/kakann.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">かかん 梶原店</h5>
+            <p class="card-text">鎌倉に本店を構える麻婆豆腐屋さん。山椒の香りが食欲をそそられます。本店に比べて空いているのもポイント。他県ナンバーの車もちらほら</p>
+            <a href="https://kakanmabo.tumblr.com/" target="_blank" class="btn btn-outline-success">公式サイト</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="img/kamaaina.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">鎌あいな</h5>
+            <p class="card-text">ハワイアンテイストな和食料理屋さん。アットホームな雰囲気で鶏の唐揚げを使った定食が絶品です。ヘルシーで女性にもおすすめです。</p>
+            <a href="https://kamaaina.crayonsite.net/" target="_blank" class="btn btn-outline-success">公式サイト</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="img/kibiya.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">KIBIYAベーカリー 手広工房</h5>
+            <p class="card-text">鎌倉市御成に本店を構えるパン屋さん。バリエーション多彩なハード系のパンがおすすめ。手広工房は基本的に週末のみの営業となっています。</p>
+            <a href="https://kibiyabakery.com/?mode=f2" target="_blank" class="btn btn-outline-success">公式サイト</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="card-element"><!--2列目-->
+
+        <div class="card" style="width: 18rem;">
+          <img src="img/tosimaya.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">豊島屋 梶原店</h5>
+            <p class="card-text">鳩サブレーで有名な豊島屋の支店です。数店舗限定の上生菓子も取り扱っています。鳩サブレーだけでなく他の和菓子もおすすめです。</p>
+            <a href="https://www.hato.co.jp/" target="_blank" class="btn btn-outline-success">公式サイト</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="https://tblg.k-img.com/restaurant/images/Rvw/78394/640x640_rect_78394879.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Imagination coffee</h5>
+            <p class="card-text">欠点豆をハンドピックした厳選豆を自家焙煎しているコーヒーショップ。豆の販売だけでなく、コーヒースタンドとしてもおすすめ。ウォーキングのついでにぜひ。</p>
+            <a href="https://tabelog.com/kanagawa/A1404/A140401/14068886/" target="_blank" class="btn btn-outline-success">食べログ</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="img/soba.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">更科</h5>
+            <p class="card-text">昔ながらの蕎麦屋さん。本格蕎麦から丼ものまでお腹いっぱいになれます。天ぷらがおすすめです。</p>
+            <a href="https://tabelog.com/kanagawa/A1404/A140402/14005012/" target="_blank" class="btn btn-outline-success">食べログ</a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+
+    <!--Spot-->
+    <div class="Spot">
+
+      <p class="h_Spot" id="h_Spot">Spot</p>
+
+      <div class="card-element">
+
+        <div class="card" style="width: 18rem;">
+          <img src="https://kamakura.press/jinja/wp-content/uploads/2021/08/kajiwara-gorei-jinja028.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">御霊神社</h5>
+            <p class="card-text">1190年に梶原景時創建と伝えられています。江戸時代までは鎌倉五郎景政夫婦の像をご神体としていて景時の像も安置されていたそう。</p>
+            <a href="https://kamakurameguri.com/jinjya/kajiwara-goreijinjya.html" target="_blank" class="btn btn-outline-success">解説サイト</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="https://baystyle.net/wp-content/uploads/2017/10/kazuharaokajinja06.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">葛原岡神社</h5>
+            <p class="card-text">縁結びの石があり、良縁の神様がまつられています。縁結び馬絵や恋結びなどができます。縁談で悩んでいる方は是非ぜひ。</p>
+            <a href="http://www.kuzuharaoka.jp/" target="_blank" class="btn btn-outline-success">公式サイト</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="img/toukakuji.JPG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">等覚寺</h5>
+            <p class="card-text">等覚寺内の休場山は梶原景時が休んだ地と伝えられています。出世子育て地蔵は参拝すれば子のない人は子を授かり、子がいる人はその子供が出世すると言われています。</p>
+            <a href="https://www.yoritomo-japan.com/page139tokakuji.htm" target="_blank" class="btn btn-outline-success">解説サイト</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="img/ohaka.JPG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">梶原景時の墓</h5>
+            <p class="card-text">梶原景時の一族の墓と伝えられています。深沢小学校裏のやぐらにある四基の五輪塔。</p>
+            <a href="https://www.yoritomo-japan.com/page139kajiwara-haka.htm" target="_blank" class="btn btn-outline-success">解説サイト</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="card-element">
+
+        <div class="card" style="width: 18rem;">
+          <img src="img/hiatari.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">日当公園</h5>
+            <p class="card-text">桜の木が周囲にある小さな公園。人も少なく、春にはお花見にピッタリな公園です。</p>
+            <a href="https://www.google.com/search?q=%E6%97%A5%E5%BD%93%E3%81%9F%E3%82%8A%E5%85%AC%E5%9C%92&rlz=1C1FQRR_jaJP938JP938&oq=%E6%97%A5%E5%BD%93%E3%81%9F%E3%82%8A&aqs=chrome.1.69i57j35i39j0i67l6j0i512l2.4390j0j7&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:1&tbm=lcl&sxsrf=ALiCzsb0fxFj2n3DAKqhvgr_F3LvDq2q3Q:1653300620473&rflfq=1&num=10&rldimm=4595412297644857047&lqi=ChLml6XlvZPjgZ_jgorlhazlnJJaFSIT5pel5b2T44Gf44KKIOWFrOWckpIBBHBhcmuqARsQASoXIhPml6XlvZPjgZ_jgoog5YWs5ZySKAg&phdesc=Vnc6FGnegH0&ved=2ahUKEwjVrcLhsPX3AhXTmFYBHZEEAz0QvS56BAgCEAE&sa=X&rlst=f#rlfi=hd:;si:4595412297644857047,l,ChLml6XlvZPjgZ_jgorlhazlnJJaFSIT5pel5b2T44Gf44KKIOWFrOWckpIBBHBhcmuqARsQASoXIhPml6XlvZPjgZ_jgoog5YWs5ZySKAg,y,Vnc6FGnegH0;mv:[[35.3869394,139.5985121],[35.2945454,139.4734858]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:1" target="_blank" class="btn btn-outline-success">GoogleMap</a>
+          </div>
+          </div>
+      </div>  
+
+    </div>
+
+
+    <!--Root-->
+    <div class="Root">
+
+      <p class="h_Root" id="h_Root">Root</p>
+
+      <div class="card-element">
+
+        <div class="card" style="width: 18rem;">
+          <img src="img/gennjiyama.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">源氏山公園</h5>
+            <p class="card-text">緑豊かな自然に囲まれ、園内には頼朝像、広場などがあります。北鎌倉から大仏へ抜けるハイキングコースとしても最適。</p>
+            <a href="https://www.trip-kamakura.com/place/142.html" target="_blank" class="btn btn-outline-success">公式観光サイト</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="img/tyuuoukouen.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">鎌倉中央公園</h5>
+            <p class="card-text">農業体験や花壇づくりなど余暇活動やボランティア活動が行われています。広大な公園内には豊かな自然、生き物たちが暮らしています。</p>
+            <a href="https://www.city.kamakura.kanagawa.jp/koen/p_cyuuou.html" target="_blank" class="btn btn-outline-success">鎌倉市公式ページ</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="img/huedakouenn.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">笛田公園</h5>
+            <p class="card-text">鎌倉山の頂上にある公園です。テニスコートや野球場、多目的スポーツ広場などスポーツ公園として、また頂上から見る景色も絶景です。</p>
+            <a href="http://www.fueda-park.com/" class="btn btn-outline-success">公式サイト</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <hr>
+
+  </div>
+
+
+
+  
+
+  <div class="googlemap">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13020.227948764408!2d139.51764783829353!3d35.329406334443604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60184f7e46a9f88d%3A0x634f24cf656585b4!2z44CSMjQ3LTAwNjMg56We5aWI5bed55yM6Y6M5YCJ5biC5qK25Y6f!5e0!3m2!1sja!2sjp!4v1652935531956!5m2!1sja!2sjp"
+       height="300" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+
+  <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+  <a href="#" class="top">Top</a>
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Kajiwara
+          </h6>
+          <p>
+            鎌倉中心部から離れた静かな地域。人混みか抜け出して新しい鎌倉を探してみるのはどうでしょうか。
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#h_Gourmet" class="text-reset">Gourmet</a>
+          </p>
+          <p>
+            <a href="#h_Spot" class="text-reset">Spot</a>
+          </p>
+          <p>
+            <a href="#h_Root" class="text-reset">Root</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="https://www.city.kamakura.kanagawa.jp/" target="_blank" class="text-reset">鎌倉市hp</a>
+          </p>
+          <p>
+            <a href="https://tabelog.com/" target="_blank" class="text-reset">食べログ</a>
+          </p>
+          <p>
+            <a href="https://www.google.co.jp/maps/@35.3279064,139.5381833,15z?hl=ja" target="_blank" class="text-reset">GoogleMap</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h6>
+          <p><i class="fas fa-home me-3"></i> Japan</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            s1F102002378@iniad.org
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
+
+
+
+</body>
+
+</html>
